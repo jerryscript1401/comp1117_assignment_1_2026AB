@@ -1,0 +1,19 @@
+[project]
+name = "comp1117-assignment-1-2026ab"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "jerryscript1401", email = "2892367141@qq.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "pysocks>=1.7.1",
+]
+
+[project.scripts]
+comp1117-assignment-1-2026ab = "comp1117_assignment_1_2026ab:main"
+
+[build-system]
+requires = ["uv_build>=0.12.18,<0.13.0"]
+build-backend = "uv_build"
